@@ -1,39 +1,49 @@
     body {
-        background: ivory;
+        background:#F9F7FE;
+        
     }
 
     div {
         color: black;
         max-width: 100%;
         margin: 50px auto;
-        padding: 30px;
-        border-radius: 20px;
-        width: 600px;
+        padding: 40px;
+        border-radius: 16px;
+        width: 550px;
         background: white;
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
             "Lucida Sans", Arial, sans-serif;
+        box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.12);
     }
 
     h1 {
         margin-top: 10px;
         text-align: left;
+        color: #ac493f;
     }
 
     h2 {
         padding: 10px;
         text-align: left;
         font-size: 22px;
+        color: #292A28;
+        font-family: "PT Mono",
+            monospace;
     }
 
-    .wattpad {
-        font-family: Rivendell;
-        line-height: 1.5;
-        font-size: 20px;
+    .about-wattpad {
+        line-height: 1.7;
         text-align: left;
+        font-weight: 100;
     }
 
-    .wattpad-link {
+    .wattpad-link,.info {
         text-align: center;
+    }
+
+    .info {
+        font-size: 16px;
+        font-family: "PT Mono",monospace;
     }
 
     .subject {
@@ -41,46 +51,55 @@
         color: #ac493f;
     }
 
-    a {
+    .wattpad-link a {
         text-decoration: underline;
-        text-shadow: 2px 2px 4px rgba(143, 140, 140, 0.884);
         transition: all 150ms ease-in-out;
     }
 
-    .follow {
+    .wattpad-link a:hover {
+        text-decoration: none;
+    } 
+
+    .about, .about a {
         color: black;
         font-size: 17px;
+        text-align: center;
+        text-decoration: none;
     }
 
-    .name {
-        color: black;
-        font-size: 17px;
-    }
+    
 
     img {
         display: block;
         margin: 0 auto;
-        padding: 20px;
+        border-radius: 12px;
     }
 
     button {
-        color: white;
         background: #ac493f;
-        padding: 15px;
-        display: block;
-        margin: 0 auto;
-        font-weight: bold;
-        border: 1px solid #ac493f;
-        border-radius: 50px;
-        box-shadow: 2px 2px 4px rgba(12, 12, 12, 0.884);
-        transition: all 150ms ease-in-out;
-        font-size: 16px;
-    }
+            color: white;
+            display: block;
+            margin: 30px auto;
+            width: 80%;
+            border-radius: 50px;
+            border: none;
+            font-size: 24px;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+                    "Lucida Sans", Arial, sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 15px 20px;
+            
+        }
+        
+    
+    
 
     button:hover {
-        background: white;
-        color: #ac493f;
+        background:#b85b51;
+        color: white;
         cursor: pointer;
+        transition: all 150ms ease-in-out;
     }
 
    
