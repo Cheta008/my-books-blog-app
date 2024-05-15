@@ -46,6 +46,11 @@
         font-family: "PT Mono",monospace;
     }
 
+    .info a {
+        color: black;
+        text-decoration: none;
+    }
+
     .subject {
         text-decoration: underline #ac493f;
         color: #ac493f;
